@@ -125,13 +125,13 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
-ADMINS = (('skeletonpaul', 'paul@skeleton.cl'))
+ADMINS = (('', '@.cl'))
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.webfaction.com'
-EMAIL_HOST_PASSWORD = 'dreamweaver512'
-EMAIL_HOST_USER = 'skeletonpaul'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_USER = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'paul@skeleton.cl'
+DEFAULT_FROM_EMAIL = '@.cl'
 
 
